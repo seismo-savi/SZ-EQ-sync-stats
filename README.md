@@ -29,7 +29,7 @@ The notebooks included in this project both work with a certain file structure. 
 	- Mizrahi_ETAS_decluster (Mizrahi ETAS declustered catalogs - gets created by declustering routine)
 	- Mizrahi_ETAS_inversion (inversion results for Mizrahi ETAS - gets created by declustering routine)
 	- Zaliapin_decluster (gets populated with CSV files produced by 		          declustering routines)
-	- zonal_cat
+	- zonal_cat (gets created by geographical sorting routine)
 		- zones (individual folders for each subregion, containing raw                     and declustered catalogs produced by location sorting routine                    in EQ_triggering_figs.ipynb)
 	- raw_catalog_data.csv (produced by ISC data search function)
 	- large_eq.csv (contains large EQs you want marked on figures)
