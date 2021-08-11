@@ -19,8 +19,6 @@ The project works using 2 Jupyter notebooks:
 
 ## File structure
 The notebooks included in this project both work with a certain file structure. It is expected that for every region (e.g. SAM, Japan), the following folders will be present in the folder containing the notebooks:
-- figs (includes GMT scripts - these have file dependecies in {region}_EQ_data)
-- sbams (folder containing subregion outlines and profile lines - for more info see SBAMS notebook by Peter Methley)
 - {region}_EQ_data
 	- figs-PDF (subfolders get created by figure plotting routines)
 		- GR_plots
@@ -35,8 +33,7 @@ The notebooks included in this project both work with a certain file structure. 
 		- zones (individual folders for each subregion, containing raw                     and declustered catalogs produced by location sorting routine                    in EQ_triggering_figs.ipynb)
 	- raw_catalog_data.csv (produced by ISC data search function)
 	- GCMT.xy (moment tensors of M>7.5 EQs in the region)
-	- SAM_periodogram_params.csv (plotting parameters for periodograms)
-	- ISC_search_params.txt (for GMT scripts
-	- SAM-SZ_tect_features.kml
 	- large_eq.csv (contains large EQs you want marked on figures)
-	- metadata.txt (used by GMT map plotting scripts)
+
+## Usage
+The file `SAM_EQ_data` is included for testing all the code. This can be accessed by most functions using region code 'SAM'.
