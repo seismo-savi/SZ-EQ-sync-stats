@@ -1,5 +1,4 @@
 # SZ-EQ-trigger-stats
-#### EQ-TRIGGERING ####
 A project to explore shallow-deep seismicity interactions in subduction zones
 
 # Requirements
