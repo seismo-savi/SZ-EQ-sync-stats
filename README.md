@@ -8,7 +8,7 @@ Project was written as Jupyter Notebooks in Python 3, and latest run was in Pyth
 - scipy(==1.7.0)
 - scikit-learn(==0.24.2)
 - pandas(==1.3.0)
-- geopandas(==
+- geopandas(==0.9.0)
 - obspy(==1.2.2)
 - shapely(==1.7.1)
 
